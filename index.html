@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <title>The Book Basement</title>
+</head>
+<body>
+    <!-- Top header Area -->
+    <div class="header-top">
+        <nav>
+            <h3><a href="#">The Book Basement | FireBase !</a></h3>
+        </nav>
+    </div>
+    <!-- content area -->
+    <div class="content-area">
+        <div class="content">
+           <div class="project-context">
+            <h2>The Project Context Is :</h2>
+            <p>The main objective of <q><b> The Book Basement </b></q> aims to create an Best Online Book Selling Store that allows users
+                to search and purchase a book online based on three elements : The Title, the Author and the Subject. <q><b> The Book Basement </b></q> contains the Latest , Upcoming Listings & the Hotest Books of the Week.
+                The selected books are displayed in a tabular format and the user can order their books
+                online through credit card payment. Using this Website the user can purchase a
+                book online instead of going out to a book store and wasting time.
+            </p>
+           </div>
+           <div class="project-context">
+            <h2>The Problem Statement Is :</h2>
+            <p> The Main issue that people and in particular students faces different types of difficulties regarding their time management combined to the actual mobility issues. 
+                Here they can't visit the Book Store and find the books they were looking for.
+            </p>
+           </div>
+           <div class="project-context">
+            <h2>The Solution Is :</h2>
+            <p> As people faces many issues like Time and Travelling , and people do not go to book stores anymore. I 
+                decided to launch an online bookstore. Through this Website, People buy books online according to their niches 
+                without any difficulties.
+            </p>
+           </div>
+           <div class="project-context">
+            <h2>Benefits To Users Are :</h2>
+            <p> There are several advantages that come with purchasing books online some which include;</p>
+                <p id="p_advantage">
+                    <b class="advantage">Convinience :</b>  When the User shop books online, the User save a lot of time which they would have wasted wandering from one store to another if you were to shop at the conventional bookstore.
+                    <br><b class="advantage">It is Easy to Access Consumer Reviews :</b>  When Users shop online, users have the chance of accessing and going through customers who have shopped at that store and review about the book you intend to buy. This will give you beforehand information about the book.
+                   <br><b class="advantage">No Limited Choice :</b> Ordinary stores have limited space to display books, but <q><b>The Book Basement</b></q> has huge databases, and users can hardly miss finding the book you are looking for. 
+               </p>
+           </div>
+           <div class="project-context">
+            <h2>The Target Audience Is :</h2>
+            <p>Everyone can buy a Book from <q><b>The Book Basement</b></q>. Like , Students , Teachers & People that belongs to any field.
+            </p>
+           </div>
+           <div class="project-context">
+            <h2>Working of The Book Basement :</h2>
+            <p>
+                The User land to My website and then there will be a User Authentication that I created on Glitch by using Skeleton Website.
+                Like this:
+            </p>
+            <div class="login_main">
+                <div class="login_main1">
+                    <img src="https://cdn.glitch.com/062d57a6-6773-4a4c-ac46-5f3da84e4787%2Flogin.PNG?v=1614109241413" alt="">
+                </div>
+                <div class="login_main2">
+                    <img src="https://cdn.glitch.com/062d57a6-6773-4a4c-ac46-5f3da84e4787%2Floginlayout.PNG?v=1614109241633" alt="">
+                </div>
+            </div>
+            <p>After Login , then the user will access to our website content. The user will then be able to Search for a Book by Author Name or Book name or either One of these. Then the user will find the book he or she was looking for easily through this Search Bar :</p>
+            <div class="search_main">
+                <div class="search_main1">
+                    <img src="https://cdn.glitch.com/062d57a6-6773-4a4c-ac46-5f3da84e4787%2Fsearch.PNG?v=1614109241505" alt="">
+                </div>
+                <div class="search_main2">
+                    <img src="https://cdn.glitch.com/062d57a6-6773-4a4c-ac46-5f3da84e4787%2Fsearchlayout.PNG?v=1614109241553" alt="">
+                </div>
+            </div>
+            <p>For the database management, I used FireBase Database and the books are added by using the Queries in the form of Arrays or Objects. Like This:</p>
+            <div class="db_main">
+                <div class="db_main1">
+                    <img src="https://cdn.glitch.com/062d57a6-6773-4a4c-ac46-5f3da84e4787%2Fdbbook.PNG?v=1614109240896" alt="">
+                </div>
+            </div>
+            <p>After Adding the Books in the Database, the user will be able to find the book he or she wants. Regarding Firebase I managed it by using: <b>view_item_list</b> Like This:</p>
+            <div class="slect_main">
+                <div class="slect_main1">
+                    <img src="https://cdn.glitch.com/062d57a6-6773-4a4c-ac46-5f3da84e4787%2Fslectbook.PNG?v=1614109242123" alt="">
+                </div>
+            </div>
+            <p>After Selecting the Book, the next process is Checkout Process. By using Firebase, I can add or remove the books in the database by logging an <b>add_to_wishlist</b> or <b>add_to_cart event</b>, respectively, with the relevant products in an items array parameter.</p>
+            <div class="slect_main">
+                <div class="slect_main1">
+                    <img src="https://cdn.glitch.com/062d57a6-6773-4a4c-ac46-5f3da84e4787%2Fcheckout.PNG?v=1614109241207" alt="">
+                </div>
+            </div>
+            <p>After Checkout initiation, then the next step is Payment Integration. I managed the Payment in FireBase as Log <b>add_payment_info</b> when a user submits their payment information. If applicable, include <b>payment_type</b> with this event for the chosen method of payment.</p>
+            <div class="slect_main">
+                <div class="slect_main1">
+                    <img src="https://cdn.glitch.com/062d57a6-6773-4a4c-ac46-5f3da84e4787%2Fpayment.PNG?v=1614109241652" alt="">
+                </div>
+            </div>
+            <p>By this We can create a FireBase Database for <b><q>The Book Basement</q></b> and have great Online Book Shopping experience.</p>
+         </div>
+          <div class="project-context">
+            <div class="project_end">
+                <p class="end-content">
+                    <q> It is not true we have only One LIFE to Love , If we can read , we can live as many lives and as many kinds of lives as we wish. </q>
+                    <br><b>S.I. Hayakawa !</b>
+                </p>
+            </div>
+          </div>
+        </div>
+    </div>
+   
+</body>
+</html>
