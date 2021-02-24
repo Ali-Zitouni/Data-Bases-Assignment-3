@@ -1,0 +1,152 @@
+/* CSS files add styling rules to your content */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=swap');
+/* COLORS */
+:root{
+    --primaryclr:#333;
+    --txtclr:#fff;
+    --hvrclr:#00b09b;
+    --sectionclr: linear-gradient(to right, #2ebf91, #8360c3); 
+    --endcontent: #d9e4f3;
+    
+}
+/* Global CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/* Header CSS */
+.header-top{
+    width: 100%;
+    height: 80px;
+    background: url('img/book2.jpg');
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-top nav{
+    width: 100%;
+    height: 80px;
+    background-color: var(--primaryclr);
+    z-index: 1;
+    opacity: 0.7;
+    text-align: center;
+}
+.header-top nav h3{
+    padding-top: 12px;
+}
+.header-top nav h3 a{
+    color: var(--txtclr);
+    font-size: 40px;
+    font-weight: bold;
+}
+.header-top nav h3 a:hover{
+    color: var(--hvrclr);
+}
+/* Content Area CSS */
+.content-area{
+    width: 90%;
+    margin: 0 auto;
+    background: var(--sectionclr);
+}
+.content-area .content{
+    padding: 20px 60px;
+}
+.content-area .content .project-context h2{
+    letter-spacing: 2px;
+    color: var(--txtclr);
+}
+.content-area .content .project-context p{
+    line-height: 1.5;
+    padding: 20px;
+}
+.content-area .content .project-context #p_advantage{
+    line-height: 1.5;
+    margin-left: 20px;
+    padding-top: 0;
+}
+.content-area .content .project-context p .advantage{
+    color: var(--txtclr);
+}
+.content-area .content .project-context .login_main{
+    width: 100%;
+    height: 300px;
+}
+
+.content-area .content .project-context .login_main .login_main1{
+    float: left;
+    width: 69%;
+} 
+.content-area .content .project-context .login_main .login_main1 img{
+    width: 100%;
+    margin-top: 8%;
+}
+
+.content-area .content .project-context .login_main .login_main2{
+    float: left;
+    width: 29%; 
+    margin-left: 10px; 
+} 
+.content-area .content .project-context .login_main .login_main2 img{
+    width: 100%;  
+} 
+.content-area .content .project-context .search_main{
+    width: 100%;
+    height: 110px;
+}
+
+.content-area .content .project-context .search_main .search_main1{
+    float: left;
+    width: 69%;
+} 
+.content-area .content .project-context .search_main .search_main1 img{
+    width: 100%;
+}
+
+.content-area .content .project-context .search_main .search_main2{
+    float: left;
+    width: 29%; 
+    margin-left: 10px; 
+} 
+.content-area .content .project-context .search_main .search_main2 img{
+    width: 100%;
+    margin-top: 11%;  
+}
+.content-area .content .project-context .db_main{
+    width: 100%;
+}
+.content-area .content .project-context .db_main .db_main1{
+    width: 50%; 
+    margin: 0 auto; 
+}
+.content-area .content .project-context .slect_main{
+    width: 100%;
+}
+.content-area .content .project-context .slect_main .slect_main1{
+    width: 70%; 
+    margin: 0 auto; 
+}
+.content-area .content .project-context .end-project{
+    width: 100%;
+}
+.content-area .content .project-context .end-content{
+    width: 50%;
+    background: var(--endcontent);
+    margin: 0 auto;
+    color: var(--primaryclr);
+    text-align: justify;
+    text-align: center;
+    margin-top: 1%;
+    border: 2px solid var(--primaryclr);
+    border-radius: 4px;
+    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.4);
+}
